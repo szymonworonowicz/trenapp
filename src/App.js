@@ -28,9 +28,9 @@ import LanguageProvider from './languages/LanguageProvider'
 import TraininingPlanTrainerView from './Views/TrainingPlanTrainerView'
 import UserProfile from './Views/UserProfile'
 
-axios.defaults.baseURL = "https://api-tren-app.herokuapp.com/";
-axios.defaults.headers.post["Access-Control-Allow-Origin"] = "https://api-tren-app.herokuapp.com/";
-axios.defaults.headers.get["Access-Control-Allow-Origin"] = "https://api-tren-app.herokuapp.com/";
+axios.defaults.baseURL = "http://localhost:5000/";
+axios.defaults.headers.post["Access-Control-Allow-Origin"] = "https://localhost:5001/";
+axios.defaults.headers.get["Access-Control-Allow-Origin"] = "https://localhost:5001/";
 class App extends Component {
   constructor(props) {
     super(props);
